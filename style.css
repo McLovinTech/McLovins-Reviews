@@ -48,5 +48,9 @@
 .return {
     background-color: #e0e0e0;
     padding: 20px;
+    text-align: left;
+}
+#p {
+    margin: auto;
     text-align: center;
 }
