@@ -13,11 +13,11 @@
   padding: 20px;
   text-align: center;
 }
-#acecombat {
+#godot-icon {
    display: block; margin:auto;
    height: 300px;
 }
-#footer {
+.footer {
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -26,25 +26,13 @@
     padding-top: 15px;
     padding-bottom: 15px;
     color: white;
+    height: 60px;
+    z-index: 1000;
 }
 #google:hover {
     color: rgb(88, 2, 2);
 }
 
-#embed {
-    height: 300px;
-    width: 500px;
-    display: block; margin: auto;
-}
-#mp3 {
-    display: block;
-    position: absolute;
-    right: 0;
-}
-#mp3span {
-    display: block;
-    text-align: right;
-}
 .return {
     background-color: #e0e0e0;
     padding: 20px;
@@ -53,4 +41,14 @@
 #p {
     margin: auto;
     text-align: center;
+}
+
+.about-me {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    z-index: 1000;
 }
