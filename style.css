@@ -13,10 +13,8 @@
   padding: 20px;
   text-align: center;
 }
-#godot-icon {
-   display: block; margin:auto;
-   height: 300px;
-}
+
+
 .footer {
     bottom: 0;
     position: fixed;
@@ -51,4 +49,15 @@
     bottom: 60px;
     width: 100%;
     z-index: 1000;
+}
+
+.image-links {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+}
+.icons {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
 }
