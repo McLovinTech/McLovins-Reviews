@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: comfortaa, sans-serif;
 }
 .first {
   background-color: #f0f0f0;
@@ -35,18 +36,16 @@
     background-color: #e0e0e0;
     padding: 20px;
     text-align: left;
+    align-items: center;
 }
 
 
 .about-me {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    bottom: 60px;
-    width: 100%;
-    z-index: 1000;
+    display: flex;
+    align-items: center;
+    
 }
+
 
 .image-links {
    display: flex;
@@ -61,8 +60,4 @@
 .links {
     text-align: center;
     
-}
-#profile-icon{
-    align-items: center;
-
 }
