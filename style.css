@@ -24,21 +24,13 @@ body {
 
 
 .footer {
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    background-color: #333; 
+    background-color: #323334;
+    color: #fcfbfa;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: white;
-    height: 60px;
-    z-index: 1000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-shrink: 0;
 }
-#google:hover {
-    color: rgb(88, 2, 2);
-}
-
 .return {
     background-color: #e0e0e0;
     padding: 20px;
@@ -78,4 +70,18 @@ body {
 .links {
     text-align: center;
     
+}
+.about-me-text {
+    position: fixed;
+    bottom: 0%;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.content-wrapper {
+  flex: 1; 
 }
